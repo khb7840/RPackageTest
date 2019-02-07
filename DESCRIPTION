@@ -1,12 +1,15 @@
 Package: RPackageTest
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Test for R package development
+Version: 0.2.0
+Authors@R: person("Hyunbin", "Kim", role = "aut", email = "khb7840@ncc.re.kr")
+Author: Hyunbin Kim [aut]
+Maintainer: Hyunbin Kim <khb7840@ncc.re.kr>
+Description: Test package for FIREVAT development
+    "Fire washes the skin off the bone and the sin off the soul.
+    It cleans away the dirt. And my momma didn't raise herself no dirty boy."
+License: MIT
+Imports: bedr (>= 1.0.6)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1

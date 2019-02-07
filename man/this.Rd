@@ -4,7 +4,7 @@
 \alias{this}
 \title{A Test function}
 \usage{
-this(username = "David")
+this(filename, username = "David")
 }
 \arguments{
 \item{username}{String. Name of user. Defaults to "David"}
@@ -14,7 +14,7 @@ This function is for R package development test.
 Repeats hello 3 times.
 }
 \examples{
-this
-this(username="Erin")
+this(filename="example.vcf")
+this("example.vcf", "Erin")
 }
 \keyword{hello-world}
